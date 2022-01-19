@@ -1,0 +1,3 @@
+$(() => {
+    let newGame = new Raffle();
+})
