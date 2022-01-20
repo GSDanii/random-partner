@@ -60,17 +60,13 @@ class Raffle {
         });
 
     $(".card").on("click", (e) => {
-      //let total = $(".card.clicked").length;
+      let total = $(".card.clicked").length;
       if (!$(e.currentTarget).hasClass("clicked")) {
         e.currentTarget.setAttribute("attr-name", this.students[this.indexCounter].name)
         e.currentTarget.querySelector(".side.front").innerHTML = `<img src=${this.students[this.indexCounter].img}><p>Lalala</p>`
         this.indexCounter++
         $(e.currentTarget).addClass("clicked");
         let name = $(e.currentTarget).attr("attr-name");
-        //let subtitleName = e.currentTarget.querySelector('.student-name-subtitle');
-        //subtitleName.innerHTML = `${name}`
-        //console.log(e.currentTarget.querySelector('.student-name-subtitle'))
-        console.log(subtitleName)
         this.addPaired(name);
       }
     });
