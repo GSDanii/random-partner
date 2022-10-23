@@ -20,7 +20,7 @@ class Raffle {
       { name: "Alexis", img: "./img/Alexis.jpg", squad: "Kraken" },
       { name: "Catalina", img: "./img/Catalina.jpg", squad: "Kraken" },
       { name: "Christian", img: "./img/christian.jpg", squad: "Kraken" },
-      { name: "David Fernández", img: "", squad: "Kraken" },
+      { name: "David Fernández", img: "./img/david_fernandez.jfif", squad: "Kraken" },
       { name: "David Muñoz", img: "./img/David_muñoz.jpg", squad: "Kraken" },
       { name: "David Daganzo", img: "./img/David_Daganzo.jpg", squad: "Kraken" },
       { name: "Gonzalo", img: "./img/Gonzalo.jpg", squad: "Kraken" },
