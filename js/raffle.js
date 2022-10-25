@@ -15,7 +15,7 @@ class Raffle {
 
     this.students = _.shuffle([
       { name: "Alberto", img: "./img/Alberto_naval3.jpg", squad: "Kraken" },
-      { name: "Alejandro Abad", img: "", squad: "Kraken" },
+      { name: "Alejandro Abad", img: "./img/Alejandro_Abad.jpg", squad: "Kraken" },
       { name: "Alex Lino", img: "./img/Alex_lino.jpg", squad: "Kraken" },
       { name: "Alexis", img: "./img/Alexis.jpg", squad: "Kraken" },
       { name: "Catalina", img: "./img/Catalina.jpg", squad: "Kraken" },
@@ -26,19 +26,19 @@ class Raffle {
       { name: "Gonzalo", img: "./img/Gonzalo.jpg", squad: "Kraken" },
       { name: "Hugo", img: "./img/Hugo.jpg", squad: "Kraken" },
       { name: "Jadde", img: "./img/Jadde.jpg", squad: "Kraken" },
-      { name: "João", img: ".", squad: "Kraken" },
-      { name: "Juan Pablo", img: "", squad: "Kraken" },
+      { name: "João", img: "./img/joao.jpg", squad: "Kraken" },
+      { name: "Juan Pablo", img: "./img/jp.jpg", squad: "Kraken" },
       { name: "Juliana", img: "./img/Juliana.jpg", squad: "Kraken" },
       { name: "Manuel", img: "./img/Manuel.png", squad: "Kraken" },
       { name: "Marta", img: "./img/marta.png", squad: "Kraken" },
       { name: "Miguel", img: "./img/Miguel_Angel.jpg", squad: "Kraken" },
       { name: "Naomi", img: "./img/Naomi.jpg", squad: "Kraken" },
-      { name: "Pedro", img: "", squad: "Kraken" },
-      { name: "Raquel", img: "", squad: "Kraken" },
-      { name: "Teresa", img: "../img/teresa.jpg", squad: "Kraken" },
+      { name: "Pedro", img: "./img/pedro.jpg", squad: "Kraken" },
+      { name: "Raquel", img: "./img/Rquel.jpg", squad: "Kraken" },
+      { name: "Teresa", img: "./img/teresa.jpg", squad: "Kraken" },
       { name: "Víctor", img: "./img/Victor.jpg", squad: "Kraken" },
       { name: "Yanxia", img: "./img/yanxia.jpg", squad: "Kraken" },
-      
+
     ]);
 
     selected == "all"
